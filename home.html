@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Waste Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for extra styling -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" class="original_nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="about.html">Food Waste Tracker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item align-items-right">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Donate Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="log.html">Tracker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="dailyneeds.html">Today's Needs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="dailyneedsform.html">Submit Daily Needs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Home Page Section -->
+    <section class="hero text-center d-flex flex-column align-items-center justify-content-center" style="height: 80vh;">
+        <h1 class="display-4">Welcome to Food Waste Tracker</h1>
+        <p class="lead">Donate your food waste and reduce it effectively</p>
+        <a href="donate.html" class="btn btn-primary btn-lg">Start donation</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features py-5 text-center">
+        <div class="container">
+            <h2>What is the use of our Tracker?</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box p-4">
+                        <img src="money.jpg" alt="Save Money" width="80">
+                        <h4>Reducing food waste</h4>
+                        <p>Reducing food waste by encouraging donations and raising awareness of waste patterns through data visualization.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box p-4">
+                        <img src="icons/save-planet.png" alt="Save Planet" width="80">
+                        <h4>Promoting food donations</h4>
+                        <p>Promoting food donations to support shelters and food banks, addressing both hunger and waste.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box p-4">
+                        <img src="icons/analyze.png" alt="Analyze" width="80">
+                        <h4>Educational and analytic benefits</h4>
+                        <p>Educational and analytic benefits, allowing users to track their food waste and optimize their resource usage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 Food Waste Tracker. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
